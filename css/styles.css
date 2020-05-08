@@ -1,0 +1,200 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+p {
+  color: grey;
+}
+
+/* Top Section */
+
+.top-section {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.header-image {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+}
+.logo-image {
+  position: absolute;
+  top:50%;
+  left: 45%;
+  z-index: 1;
+
+}
+
+/* First Section */
+
+.first-section {
+  padding-top: 2%;
+}
+.first-section p {
+  padding: 1% 26%;
+  line-height: 1.7;
+}
+.btn-ios,.btn-mac {
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 0.9rem;
+  margin: 10px 5px;
+}
+.btn-ios {
+  background-color: #1eb2a6;
+}
+.btn-mac {
+  background-color: #4a47a3;
+}
+
+/* Middle Section */
+
+.middle-section {
+  margin-top: 10%;
+}
+.sub-text {
+  line-height: 1.7;
+  padding: 1% 20%;
+}
+
+/* TopMiddle Section */
+
+.top-middle-section {
+  margin-top: 10%;
+}
+.computer-image {
+  margin-left: -100px;
+  width:100%;
+  height: 100%;
+}
+.computer-text {
+  text-align: left;
+  padding-left: 7%;
+}
+.first-text {
+  padding-top: 2%;
+  font-size: 1.3rem;
+}
+.second-text {
+  padding-top: 10%;
+  font-size: 1.3rem;
+}
+.computer-text p {
+  width: 67%;
+  line-height: 2;
+  padding-top: 1%;
+}
+.device-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* BottomMiddle Section */
+
+.bottom-middle-section {
+  margin-top: 15%;
+}
+.bottom-middle-section p {
+  padding: 1% 23%;
+  line-height: 1.7;
+}
+.bottom-middle-section img {
+  margin-top: 5%;
+}
+
+/* Bottom Section */
+
+.bottom-section {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.device-text {
+  padding-bottom: 1%;
+}
+.top-bottom-section {
+  margin-top: 5%;
+  padding: 0 5%;
+}
+.top-bottom-section h3 {
+  font-size: 1.4rem;
+  padding: 5% 0;
+}
+.plain-text {
+  margin-top: 0.7%;
+}
+.middle-bottom-section {
+  padding: 10% 0 0 0;
+}
+.company-logo {
+  padding: 0 0 10% 9%;
+}
+.bottom-bottom-section p {
+  padding: 1% 23%;
+  line-height: 2;
+}
+
+/* Last Section */
+
+.last-section {
+  background-color: #f4f4f4;
+  padding: 3% 10%;
+  text-align: left;
+}
+.last-section img {
+  width: 60px;
+  height: 60px;
+}
+.footer {
+  float: right;
+  margin-left: 10%;
+}
+.footer img {
+  margin: 0 0 0 15%;
+  width: 20px;
+  height: 20px;
+}
+
+
+@media (max-width: 1028px) {
+  .logo-image {
+    position: absolute;
+    top:50%;
+    left: 40%;
+    z-index: 1;
+
+  }
+  .first-section {
+    margin-top: 20%;
+  }
+  .sub-text,.first-section p {
+    padding: 1% 5%;
+  }
+  .computer-image {
+    width: 90%;
+    height: 90%;
+    margin-left: 0;
+  }
+  .computer-text {
+    text-align: center;
+    margin-top: 5%;
+    padding: 0;
+  }
+  .computer-text p {
+    width: 100%;
+    padding: 1% 5%;
+
+
+  }
+  .first-text {
+    width: 100%;
+  }
+  .bottom-middle-section p,.bottom-bottom-section p {
+    padding: 1% 5%;
+  }
+  .footer-text {
+    margin-top: 5%;
+  }
+}
